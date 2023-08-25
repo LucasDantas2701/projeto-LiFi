@@ -1,0 +1,318 @@
+int led = 7;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(led, OUTPUT); 
+ Serial.begin(9600);
+}
+
+void loop() {
+ digitalWrite(led, LOW); 
+char c = Serial.read();
+/////////////////////////UPPER CASE//////////////////////////////////////////////
+if (c == '.'){
+  delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,LOW,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == ' '){
+  delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,LOW,LOW,LOW,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'A'){
+  delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,LOW,LOW,LOW,LOW,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'B'){
+  delay(1400);
+  int bits1[] = {HIGH,HIGH,LOW,LOW,LOW,HIGH,HIGH,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'C'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,LOW,LOW,HIGH,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'D'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,LOW,HIGH,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'E'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,LOW,LOW,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'F'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,LOW,LOW,LOW,LOW,LOW,HIGH,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'G'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'H'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,LOW,LOW,LOW,HIGH };
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(101);
+  }
+}
+if (c == 'I'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,HIGH,LOW,LOW,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'J'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,HIGH,LOW,HIGH,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'K'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,LOW,LOW,LOW,HIGH,LOW,HIGH,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'L'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,HIGH,HIGH,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'M'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,HIGH,HIGH,LOW,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'N'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,HIGH,HIGH,HIGH,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'O'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,LOW,LOW,LOW,HIGH,HIGH,HIGH,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'P'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,HIGH,LOW,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'Q'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,HIGH,LOW,LOW,LOW,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'R'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,LOW,LOW,LOW,HIGH,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'S'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,HIGH,LOW,LOW,HIGH,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'T'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,HIGH,LOW,HIGH,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'U'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,LOW,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'V'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'W'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,HIGH,LOW,LOW,HIGH,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'X'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,LOW,LOW,LOW };
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'Y'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,LOW,LOW,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == 'Z'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,HIGH,HIGH,HIGH,HIGH,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+/////////////////////////////////////// NUMEROS
+if (c == '0'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,LOW,LOW,LOW,LOW,LOW,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '1'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,LOW,LOW,LOW,LOW,HIGH,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '2'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,LOW,LOW,LOW,HIGH,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '3'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,LOW,LOW,HIGH,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '4'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,LOW,HIGH,LOW,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '5'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,HIGH,LOW,LOW,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '6'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,HIGH,LOW,LOW,LOW,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '7'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,HIGH,LOW,LOW,LOW,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '8'){
+   delay(1400);
+  int bits1[] = {HIGH,LOW,LOW,LOW,HIGH,HIGH,LOW,LOW,LOW};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+if (c == '9'){
+   delay(1400);
+  int bits1[] = {HIGH,HIGH,LOW,LOW,LOW,LOW,LOW,HIGH,HIGH};
+ for (int i = 0; i < 9; i++) {
+    digitalWrite(led, bits1[i]);
+    delay(100);
+  }
+}
+}
