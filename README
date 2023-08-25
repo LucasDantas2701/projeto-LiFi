@@ -1,0 +1,11 @@
+Este projeto foi desenvolvido para o Projeto de conclusão de curso do ensino medio tecnico da escola Fundação Matias Machline, no ano de 2022.
+Por: Lucas dos santos dantas 
+.
+.
+.
+O projeto baseia-se na ideia primordial de propor um sistema alternativo de segurança de dados através da transmissão por ondas luminosas promovendo uma proteção ainda maior nos dados 
+e informações privadas de empresas e semelhantes. A aplicação deste sistema além de possibilitar uma maior velocidade de comunicação entre os aparelhos, permite também que haja uma
+privacidade de transmissão superior quando comparado com os sistemas usuais (WiFi, Bluethooth, etc).
+
+O circuito ompõe um dispositivo que é capaz de converter dados em texto para binário e os converter em ondas luminosas, assim como um segundo dispositivo capaz de ler estes
+dados luminosos e os converter para seu formato original.
